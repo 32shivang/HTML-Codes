@@ -1,0 +1,11 @@
+[symple_divider style="solid" margin_top="20px" margin_bottom="20px"]
+
+[symple_divider style="dashed" margin_top="20px" margin_bottom="20px"]
+
+[symple_divider style="dotted" margin_top="20px" margin_bottom="20px"]
+
+[symple_divider style="double" margin_top="20px" margin_bottom="20px"]
+
+[symple_divider style="fadein" margin_top="20px" margin_bottom="20px"]
+
+[symple_divider style="fadeout" margin_top="20px" margin_bottom="20px"]
