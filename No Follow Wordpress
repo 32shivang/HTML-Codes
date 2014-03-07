@@ -1,4 +1,4 @@
-//Add a rel="nofollow" to the comment reply links
+// Add a rel="nofollow" to the comment reply links
 function add_nofollow_to_reply_link( $link ) {
 	return str_replace( '")\'>', '")\' rel=\'nofollow\'>', $link );
 }
