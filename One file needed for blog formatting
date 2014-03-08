@@ -1,0 +1,39 @@
+Vertical Space
+
+
+<div style="margin-bottom:20px;"></div> 
+
+-----------------------------------------------------------------------------------------------
+
+
+HTML Image Border 
+
+
+border="5px"
+
+------------------------------------------------------------------------------------------------
+
+Heading Code
+
+
+[symple_heading type="h3" title="Why One More Plugin" margin_top="20px;" margin_bottom="20px" text_align="left"]
+
+
+--------------------------------------------------------------------------------------------------
+
+Content Box
+
+
+[symple_box color="blue" text_align="left" width="100%" float="none"]
+Lorem Ipsum
+
+[/symple_box]
+-------------------------------------------------------------------------------------------------
+
+
+Button
+
+[symple_button color="blue" url="http://www.monkshouts.org/best-ways-to-fix-wordpress/"
+title="Check It Out" target="blank" border_radius=""]Check It Out[/symple_button]
+
+-------------------------------------------------------------------------------------------------------------
