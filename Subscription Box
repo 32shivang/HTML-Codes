@@ -1,0 +1,61 @@
+<div id="optinfeed">
+<form onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=monkshouts', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" target="popupwindow" method="post" action="http://feedburner.google.com/fb/a/mailverify">
+<input type="hidden" name="uri" value="monkshouts"><input type="hidden" value="en_US" name="loc">
+<input type="text" id="name" name="name" onfocus="this.value=''" value="Enter Your Name" placeholder="Enter Your Name">
+<input type="text" id="email" name="email" onfocus="this.value=''" value="Enter Your Email Address" placeholder="Enter Your Email Address">
+<input type="submit" value="Instant Access" id="submit" name="submit">
+</form>
+</div>
+<style>
+#optinfeed {
+background: #DDDDDD;
+border-bottom: 1px dashed #CCCCCC;
+padding: 15px 0;
+text-align: center;
+
+/*
+width: 265px;
+*/
+}
+#optinfeed h4 {
+font-weight: bold;
+margin: 10px 0 20px;
+}
+#optinfeed input[type="text"] {
+border: 1px solid #AAAAAA;
+font-size: 13px;
+margin: 0 0 15px 0;
+padding: 10px;
+width: 80%;
+color:#888;
+}
+#optinfeed input {
+box-shadow: 0 2px 2px #AAAAAA;
+-moz-box-shadow: 0 2px 2px #AAAAAA;
+-webkit-box-shadow: 0 2px 2px #AAAAAA;
+}
+#optinfeed input.name {
+background: url(http://i.imgur.com/XrHTe.png) no-repeat scroll right center #FFFFFF;
+}
+#optinfeed input.email {
+background: url(http://i.imgur.com/2BCD0.png) no-repeat scroll right center #FFFFFF;
+}
+#optinfeed input[type="submit"] {
+background: #ffc400;
+border: 1px solid #B63C00;
+color: #FFFFFF;
+cursor: pointer;
+font-family: arial;
+font-size: 16px;
+font-weight: bold;
+height: 40px;
+margin-top: 5px;
+padding: 8px 0;
+
+text-transform: capitalize;
+width: 80%;
+}
+#optinfeed input[type="submit"]:hover {
+background: none repeat scroll 0 0 #ffc400;
+}
+</style>
