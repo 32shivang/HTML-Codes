@@ -1,0 +1,8 @@
+// Add a rel="nofollow" to the end of all anchor tags
+function add_nofollow_to_ reply_link( $ link ) {
+return str_replace( ' ")  ' &gt;' , ' ")  ' rel= ' nofollow' &gt;' , $ link );
+}
+add_ filter( ' comment_reply_link', ' add_nofollow_to_ reply_link' ) ; 
+
+
+// Add these lines of code at the end of functions.php in your wordpress installtion
