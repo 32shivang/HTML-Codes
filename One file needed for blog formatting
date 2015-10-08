@@ -2,10 +2,16 @@ Page split Wordpress
 
 <!–-nextpage–->
 
-Vertical Space
+Heading with a Vertical Space
 
 
-<div style="margin-bottom:20px;"></div> 
+<div style="margin-bottom:20px;"></div>
+<h2>Welcome to the real-time HTML editor!</h2>
+<hr size="3" noshade style="color:#000000"/>
+<div style="margin-bottom:20px;"></div>
+
+
+<hr size="2" width="50%" noshade style="color:#000000" align="left" />
 
 -----------------------------------------------------------------------------------------------
 
